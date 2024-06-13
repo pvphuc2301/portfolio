@@ -6,6 +6,7 @@ const Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, 180px);
     grid-gap: 40px;
+    justify-content: center;
 `;
 
 const Stack = () => {
@@ -26,6 +27,14 @@ const Stack = () => {
         {
             name: "Styled Components",
             image: <span style={{ fontSize: "30px" }}>💅</span>,
+        },
+        {
+            name: "HTML 5",
+            image: <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png' width="50" height="50" />
+        },
+        {
+            name: "CSS 3",
+            image: <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/1200px-CSS3_logo.svg.png' width="50" height="50" />
         },
     ]
 
@@ -73,8 +82,8 @@ const Stack = () => {
 
     return (
         <>
-            <h1>Frontend</h1>
             <Grid>
+                <h1 style={{ gridColumn: "1/-1" }}>Frontend</h1>
                 {
                     frontEnd.map((item, index) => {
                         return (
@@ -89,9 +98,9 @@ const Stack = () => {
                     })
                 }
             </Grid>
-            <h1>Backend</h1>
             {
                 <Grid>
+                    <h1 style={{ gridColumn: "1/-1" }}>Backend</h1>
                     {
                         backEnd.map((item, index) => {
                             return (
@@ -107,9 +116,9 @@ const Stack = () => {
                 </Grid>
             }
 
-            <h1>Language</h1>
             {
                 <Grid>
+                    <h1 style={{ gridColumn: "1/-1" }}>Language</h1>
                     {
                         language.map((item, index) => {
                             return (

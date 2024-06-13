@@ -69,6 +69,7 @@ function App() {
       <StyledHeader>
         <img style={{ width: 30, height: 30, userSelect: 'none' }} src={codeSlash} alt="Logo" />
         <h2 style={{ marginLeft: 10, color: '#fff' }}>Phút</h2>
+        <div style={{ flex: 1 }}></div>
         <Menu
           theme="dark"
           mode="horizontal"

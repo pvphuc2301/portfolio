@@ -1,4 +1,4 @@
-import { Button, Flex, Space, Tag } from "antd";
+import { Button, Space, Tag } from "antd";
 import styled from "styled-components";
 
 const Grid = styled.div`
@@ -18,7 +18,14 @@ const Projects = () => {
                 "https://source.unsplash.com/random/400x300/?code",
             ],
             link: "https://github.com/pvphuc2301/emrapp",
-            description: 'EMR (Electronic Medical Record) is a web application that allows healthcare professionals to manage patient records electronically. It provides a user-friendly interface for creating, updating, and retrieving patient information. With EMR, healthcare providers can easily access patient data, order lab tests, and schedule appointments, all from a single platform.',
+            description: <>
+                Electronic Medical Record (EMR) is a web application that allows authorized users (doctors,
+                nurses) to access and input patient’s health information (clinical summary, lab result, exam
+                reports and images, patient’s visit information history, medical record forms) and other
+                resources.
+                EMR (Electronic Medical Record) is a web application that allows healthcare professionals to manage patient records electronically. It provides a user-friendly interface for creating, updating, and retrieving patient information. With EMR, healthcare providers can easily access patient data, order lab tests, and schedule appointments, all from a single platform.
+            </>
+            ,
             stack: [
                 "ASP.NET",
                 "C#",
@@ -47,7 +54,11 @@ const Projects = () => {
                 "https://source.unsplash.com/random/400x300/?code",
             ],
             link: "https://github.com/pvphuc2301/PDCA",
-            description: '',
+            description: <>
+                PDCA application with some modules that improve the quality and performance of nurse
+                manager in coordinates all nursing activities. Manage the process of submit and transfer
+                medical record, track approvals.
+            </>,
             stack: [
                 "HTML",
                 "CSS",
@@ -60,7 +71,10 @@ const Projects = () => {
                 "https://source.unsplash.com/random/400x300/?code",
             ],
             link: "https://github.com/pvphuc2301/RisPortal",
-            description: '',
+            description: <>
+                Radiology Portal is a web application that provides features that allow authorized users
+                create, view and print patient’s exam reports and images online.
+            </>,
             stack: [
                 "HTML",
                 "CSS",

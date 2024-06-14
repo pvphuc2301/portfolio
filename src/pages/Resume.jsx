@@ -7,9 +7,7 @@ const Resume = () => {
             <h2>My Experience</h2>
 
             <p>
-                NET Developer with 3+ years of experience developing web. With the ability to research
-                analyze, solve problems and willing for learning new technology.
-                I am looking for a place to grow my skills and provide value to the company.
+                As an experienced web developer with three years of hands-on work, I specialize in C#, JavaScript, Sql, NodeJs, ReactJS and Web API. My expertise lies in writing efficient, testable code and creating user-friendly website layouts using standard HTML/CSS practices. Additionally, I stay updated on emerging technologies and industry trends.
             </p>
 
             <Timeline
@@ -18,7 +16,7 @@ const Resume = () => {
                         children: <>
                             <p>Jan 2024 - Present</p>
                             <h3>Full Stack Developer</h3>
-                            <p>Freelance </p>
+                            <p> Freelance </p>
                         </>,
                     },
                     {
